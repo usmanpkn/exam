@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* css rules for 'Didact Gothic' */
+    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+} 
+
+header{
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+
+}
+
+.listitem{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.listitem{
+    font-size:20px;
+    font-weight: bolder;
+}
+/* .footer{
+    position : absolute;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+    background-color:black;
+} */
+
+.content1{
+    position: fixed;
+
+
+    
+
+    
+}
+
+#carouselExampleSlidesOnly{
+    width:100%;
+    height:83vh;
+    background-image: url('https://www.zudio.com/cdn/shop/files/MASTHEAD-1_d291d857-8b53-4ada-8c76-e5e504fa9d56.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+#carouselExampleSlidesOnly ul {
+    margin-top: 10rem;
+    list-style: none;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+ul a {
+    color:yellow;
+    font-weight: bold;
+    cursor: pointer;
+}
